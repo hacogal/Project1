@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to an external stylesheet for styling -->
+    <script defer src="js/script.js"></script> <!-- Link to an external JavaScript file with deferred loading -->
+    <title>Feedback</title> <!-- Title of the HTML document -->
+</head>
+<body>
+    <header>
+        <h1>The Floppy Disk</h1> <!-- Main heading within the header section -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Navigation link to the home page -->
+                <li><a href="about.html">About</a></li> <!-- Navigation link to the about page -->
+                <li><a href="feedback.html">Feedback</a></li> <!-- Navigation link to the feedback page -->
+                <li><a href="support.html">Support</a></li> <!-- Navigation link to the support page -->
+                <li><a href="cinfo.html">Corporate information</a></li> <!-- Navigation link to the corporate information page -->
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Customer Feedback</h2> <!-- Subheading within the content section -->
+        <form id="feedbackForm"> <!-- Feedback form with a unique id -->
+            <label for="name">Name:</label> <!-- Label for the 'name' input field -->
+            <input type="text" id="name" name="name" required> <!-- Text input for the user's name with required attribute -->
+            
+            <label for="email">Email:</label> <!-- Label for the 'email' input field -->
+            <input type="email" id="email" name="email" required> <!-- Email input for the user's email with required attribute -->
+
+            <label for="rating">Rating:</label> <!-- Label for the 'rating' select field -->
+            <select id="rating" name="rating" required> <!-- Select field for user rating with required attribute -->
+                <option value="5">5 - Excellent</option> <!-- Option for the highest rating -->
+                <option value="4">4 - Very Good</option> <!-- Option for a very good rating -->
+                <option value="3">3 - Good</option> <!-- Option for a good rating -->
+                <option value="2">2 - Fair</option> <!-- Option for a fair rating -->
+                <option value="1">1 - Poor</option> <!-- Option for the lowest rating -->
+            </select>
+            <br><br>
+            <label for="comments">Comments:</label><br> <!-- Label for the 'comments' textarea -->
+            <textarea id="comments" name="comments" rows="5" required></textarea> <!-- Textarea for user comments with required attribute -->
+            <br>
+            <button type="submit">Submit Feedback</button> <!-- Submit button for the form -->
+        </form>
+        
+        <div id="feedbackMessages"></div> <!-- Container for feedback messages -->
+        <div id="feedbackInfo"></div> <!-- Container for feedback information -->
+    </section>
+    <footer>
+        <p>&copy;The Floppy Disk</p> <!-- Copyright information in the footer -->
+    </footer>
+</body>
+</html>

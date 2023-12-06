@@ -1,0 +1,63 @@
+/* Styles for the navigation unordered list */
+nav ul {
+    list-style: none; /* Removes default list styling */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Styles for navigation list items */
+nav li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 20px; /* Adds right margin to create space between list items */
+}
+
+/* Global styles for the entire body of the document */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the default font family */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    background-image: url(../img/D2.jpg); /* Sets a background image for the body */
+}
+
+/* Styles for the header and footer elements */
+header, footer {
+    background-color: rgb(32, 28, 28); /* Sets background color */
+    color: white; /* Sets text color */
+    text-align: center; /* Centers the text within the header and footer */
+    padding: 1em; /* Adds padding to the header and footer */
+}
+
+/* Styles for the main content section */
+section {
+    max-width: 800px; /* Sets the maximum width of the section */
+    margin: 50px auto; /* Centers the section and adds margin */
+    padding: 20px; /* Adds padding to the section */
+    background-color: white; /* Sets background color */
+}
+
+/* Styles for the footer element fixed at the bottom of the viewport */
+footer {
+    position: fixed; /* Fixes the footer at the bottom of the viewport */
+    bottom: 0; /* Aligns the footer to the bottom */
+    width: 100%; /* Sets the width to 100% of the viewport */
+}
+
+/* Styles for a specific form with the id 'feedbackForm' */
+#feedbackForm {
+    text-align: center; /* Centers the text within the form */
+}
+
+/* Styles for images within the document */
+img {
+    max-width: 100%; /* Ensures images do not exceed the width of their container */
+    height: auto; /* Maintains the aspect ratio of images */
+    display: block; /* Removes default inline spacing for images */
+    margin: 20px 0; /* Adds margin above and below the images */
+}
+
+/* Styles for figures, often used with images or other multimedia elements */
+figure {
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Centers the content within the figure */
+}
