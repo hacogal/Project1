@@ -1,5 +1,6 @@
 /* Styles for the navigation unordered list */
 nav ul {
+    color: white;
     list-style: none; /* Removes default list styling */
     margin: 0; /* Removes default margin */
     padding: 0; /* Removes default padding */
