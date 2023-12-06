@@ -4,11 +4,17 @@ nav ul {
     margin: 0; /* Removes default margin */
     padding: 0; /* Removes default padding */
 }
-
+/* Sets text color for the links */
+a{
+    color: white; 
+}
+/* Style when the link is clicked */
+a:active {
+    color: gray;
+}
 /* Styles for navigation list items */
 nav li {
-    color: white;/* Sets text color */
-    text-decoration: underline; 
+    text-decoration: underline; /* Displays underline list items */
     display: inline; /* Displays list items horizontally */
     margin-right: 20px; /* Adds right margin to create space between list items */
 }
