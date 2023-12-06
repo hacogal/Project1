@@ -8,6 +8,7 @@ nav ul {
 /* Styles for navigation list items */
 nav li {
     color: white;/* Sets text color */
+    text-decoration: underline; 
     display: inline; /* Displays list items horizontally */
     margin-right: 20px; /* Adds right margin to create space between list items */
 }
